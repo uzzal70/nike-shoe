@@ -1,0 +1,37 @@
+/* common style  */
+h1{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+/* Button  */
+    button{
+    width: auto;
+    padding: 12px 23px !important;
+    transition:all 0.3s linear !important;
+    }
+    button span{
+        font-size: 16px;
+    }
+    .svg-cart{
+        width: 24px;
+        height: 24px;
+    }
+    button:hover{
+        background-color: white !important;
+        color: black !important;
+        border-color: greenyellow;
+    }
+
+    /* casual shoe area  statr*/
+    .casual-shoe-area, .formal-shoe{
+        background-color: #f7f4f4;
+    }
+    .line-h{
+        padding: 48px 0px;
+    }
